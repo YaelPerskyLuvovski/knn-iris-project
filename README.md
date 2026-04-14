@@ -3,18 +3,12 @@
 ## Overview
 This project demonstrates the use of the K-Nearest Neighbors (KNN) algorithm to classify flowers in the Iris dataset.
 
-The goal is to predict the species of a flower based on its features (sepal length, sepal width, petal length, petal width).
-
----
+The goal is to predict the species of a flower based on its features such as sepal length, sepal width, petal length, and petal width.
 
 ## Algorithm Explanation
-KNN (K-Nearest Neighbors) is a simple and effective machine learning algorithm.
+KNN (K-Nearest Neighbors) is a simple machine learning algorithm.
 
-It works by:
-- Finding the K closest data points to a new sample
-- Assigning the class based on the majority vote
-
----
+It works by finding the K closest data points to a new sample and assigning the class based on the majority vote.
 
 ## Steps Performed
 1. Load the Iris dataset  
@@ -25,8 +19,6 @@ It works by:
 6. Create a confusion matrix  
 7. Plot accuracy vs K values  
 
----
-
 ## Results
 
 ### Confusion Matrix
@@ -35,10 +27,20 @@ It works by:
 ### Accuracy vs K
 ![Accuracy vs K](accuracy_vs_k.png)
 
----
-
 ## How to Run
-Make sure Python is installed, then run:
-
-```bash
+Run the script using Python:
 python iris_knn.py
+
+## Requirements
+numpy  
+matplotlib  
+seaborn  
+scikit-learn  
+
+## Summary
+In this project, we used the KNN algorithm to classify the Iris dataset.
+
+The model performed well, and we observed that different K values affect the accuracy.
+
+## Authors
+Yael & Shir
