@@ -1,15 +1,31 @@
-# KNN Iris Project
+# KNN Iris Classification Project
 
-## Description
-This project implements the K-Nearest Neighbors (KNN) algorithm on the Iris dataset.
+## Overview
+This project demonstrates the use of the K-Nearest Neighbors (KNN) algorithm to classify flowers in the Iris dataset.
 
-## Steps
-- Load the dataset
-- Split data into training and testing sets
-- Train the KNN model
-- Evaluate accuracy
-- Plot confusion matrix
-- Plot accuracy vs K
+The goal is to predict the species of a flower based on its features (sepal length, sepal width, petal length, petal width).
+
+---
+
+## Algorithm Explanation
+KNN (K-Nearest Neighbors) is a simple and effective machine learning algorithm.
+
+It works by:
+- Finding the K closest data points to a new sample
+- Assigning the class based on the majority vote
+
+---
+
+## Steps Performed
+1. Load the Iris dataset  
+2. Split the data into training and testing sets  
+3. Train a KNN model  
+4. Evaluate model accuracy  
+5. Generate predictions  
+6. Create a confusion matrix  
+7. Plot accuracy vs K values  
+
+---
 
 ## Results
 
@@ -18,3 +34,11 @@ This project implements the K-Nearest Neighbors (KNN) algorithm on the Iris data
 
 ### Accuracy vs K
 ![Accuracy vs K](accuracy_vs_k.png)
+
+---
+
+## How to Run
+Make sure Python is installed, then run:
+
+```bash
+python iris_knn.py
