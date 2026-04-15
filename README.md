@@ -35,7 +35,11 @@ python iris_knn.py
 numpy  
 matplotlib  
 seaborn  
-scikit-learn  
+scikit-learn
+
+## AI Usage
+This project was developed with the assistance of AI tools.
+All implementation and final decisions were made by the students.
 
 ## Summary
 In this project, we used the KNN algorithm to classify the Iris dataset.
